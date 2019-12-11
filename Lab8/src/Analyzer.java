@@ -5,7 +5,7 @@ public class Analyzer {
         linSearch("mzzzz");
         binSearch("mzzzz");
         linSearch("aaaaa");
-        binSearch("aaaaa");
+        binSearch("aaaaa"); //comment
     }
     public static int linearSearch(String[] dataSet, String element) {
         for(int i=0;i<dataSet.length;i++) {
